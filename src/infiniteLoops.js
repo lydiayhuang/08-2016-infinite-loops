@@ -5,27 +5,27 @@ var loop = function(collection, callback){
     // ultimate side-effects function
     for (var i = 0; i < collection.length; i++){
       callback(collection[i]);
-    }
+    };
 };
 
 // 1. countVowels
 var countVowels = function(string){
 	var holdsNumbers = 0;
-	var newString = string.toLowerCase().split("");
-}
-var brandNew = "Lilwayne Brand New"
-loop(countVowels,function(word){
-	if (newString === "A" || newString === "E" || newString === "I" 
-		|| newString === "O" || newString === "U") {
-		console.log(countVowels);
-	}
-
-})
-
-
-	//loop() 
+	var newString = string.toUpperCase().split("");
+	loop(newString,function(letter){
+	if (letter=== "A" || letter === "E" || letter === "I" 
+		|| letter  === "O" || letter === "U") {
+		holdsNumbers++;
+	};
+}); 
 	return holdsNumbers;
-}
+}	
+var brandNew = "Lilwayne Brand New"
+var newString;
+
+
+
+	//loop() 	
 console.log(countVowels("Amoraodfhsldfhjdlf"));
 // 2. stringReversal
 
