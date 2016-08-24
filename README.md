@@ -46,7 +46,7 @@ var loop = function(collection, callback){
 ```
 
 ### countVowels:
-`countVowels` takes one string as an argument and returns the number of vowels in the string.
+`countVowels` takes one string as an parameter and returns the number of vowels in the string.
 * [ ] instead of writing your own `for` loop, use `loop` to complete countVowels.
 
 ```javascript

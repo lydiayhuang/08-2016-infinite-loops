@@ -9,7 +9,24 @@ var loop = function(collection, callback){
 };
 
 // 1. countVowels
+var countVowels = function(string){
+	var holdsNumbers = 0;
+	var newString = string.toLowerCase().split("");
+}
+var brandNew = "Lilwayne Brand New"
+loop(countVowels,function(word){
+	if (newString === "A" || newString === "E" || newString === "I" 
+		|| newString === "O" || newString === "U") {
+		console.log(countVowels);
+	}
 
+})
+
+
+	//loop() 
+	return holdsNumbers;
+}
+console.log(countVowels("Amoraodfhsldfhjdlf"));
 // 2. stringReversal
 
 // 3. isPalindrome
@@ -33,8 +50,8 @@ var loop = function(collection, callback){
 // 12. swapShuffle 
 
 
-var sampleCarList = helpers.carFactory(helpers.carDatabase, helpers.carMaker, 100);
-console.dir(sampleCarList);
+//var sampleCarList = helpers.carFactory(helpers.carDatabase, helpers.carMaker, 100);
+//console.dir(sampleCarList);
 
 
 // 13. findBlueCars
