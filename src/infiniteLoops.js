@@ -20,13 +20,12 @@ var countVowels = function(string){
 }); 
 	return holdsNumbers;
 }	
+
 var brandNew = "Lilwayne Brand New"
 var newString;
 
+console.log(countVowels(brandNew));
 
-
-	//loop() 	
-console.log(countVowels("Amoraodfhsldfhjdlf"));
 // 2. stringReversal
 
 // 3. isPalindrome
