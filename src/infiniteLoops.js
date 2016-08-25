@@ -26,11 +26,45 @@ var newString;
 
 console.log(countVowels(brandNew));
 
+
+
+
 // 2. stringReversal
+var stringReversal = function(string) {
+
+	//return string.split('').reverse().join('');
+	var reverse = [];
+	loop(string, function(letter) {
+		reverse.unshift(letter);
+
+	});
+	return reverse.join('');
+};
+
+var answer = stringReversal('Lydia');
+console.log(answer);
+
 
 // 3. isPalindrome
+var isPalindrome = function(string) {
+	var reverse = [];
+	var state = true; 
+	loop(string, function(word) {
+		if (stringReversal(string) === string) {
+			return state;
+			
+		} else {
+			
+		};
+			return state = false;
+	});
+			return state;
+	};
+		
+console.log(isPalindrome('racecar'));
 
 // 4. largestNumber
+var largestNumber = function 
 
 // 5. multBy
 
